@@ -12,8 +12,6 @@ import pandas as pd #this is how I usually import pandas
 import sys #only needed to determine Python version number
 import matplotlib #only needed to determine Matplotlib version number
 
-# Enable inline plotting
-#%matplotlib inline #only supported in IPython
 
 print('Python version ' + sys.version)
 print('Pandas version ' + pd.__version__)
